@@ -1,0 +1,12 @@
+{
+  "generator-yeogurt": {
+    "config": {
+      "projectName": "Dashboard",
+      "htmlOption": "jade",
+      "cssOption": "sass",
+      "sassSyntax": "scss",
+      "testFramework": "jasmine"
+    },
+    "version": "1.2.4"
+  }
+}

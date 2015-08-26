@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Backlog",
+    "color": "#fff",
+    "bgcolor": "#e74c3c"
+  },
+  {
+    "name": "InProgress",
+    "color": "#fff",
+    "bgcolor": "#94caeb"
+  },
+  {
+    "name": "QA",
+    "color": "#fff",
+    "bgcolor": "#eb9494"
+  },
+  {
+    "name": "InReview",
+    "color": "#fff",
+    "bgcolor": "#8fbc23"
+  },
+  {
+    "name": "Complete",
+    "color": "#fff",
+    "bgcolor": "#348C32"
+  }
+]

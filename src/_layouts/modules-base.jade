@@ -1,0 +1,18 @@
+extends ../_layouts/base
+
+include ../_dashboard-utils/styles-display-box/styles-display-box
+
+//- Add in dashboard specific styles
+block append stylesheets
+  - var dash = site.data.dashboard
+  link(rel='stylesheet', href= config.baseUrl + 'styles/main-dashboard.css')
+  style
+    if dash.statuses
+      each val, key in dash.statuses
+        |  .#{val.name} {color: #{val.color} !important; background-color: #{val.bgcolor} !important;}
+
+block content
+
+//- Add in dashboard specific scripts
+block append scripts
+  script(src= config.baseUrl + 'scripts/main-dashboard.js')
